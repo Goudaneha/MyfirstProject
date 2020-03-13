@@ -1,0 +1,815 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Validate Login to Introducer Portal",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-login-to-introducer-portal;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179711200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Broker is on HomePage",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Broker navigats to  HomePage",
+            "match": {
+              "location": "LoginStepDefinition.broker_navigats_to_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3825700,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.utility.CommonMethods.clickon(CommonMethods.java:11)\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_should_select_products(LoginStepDefinition.java:47)\r\n\tat ✽.And Broker should select products(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Broker should select products",
+            "match": {
+              "location": "LoginStepDefinition.broker_should_select_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "login with valid email \"sit1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sit1990",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition.login_with_valid_email(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "password \"Allica123$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Allica123$",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on Login button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validate Broker Dashboard",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-broker-dashboard;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999627400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Broker is on dashboard",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303200,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_navigated_to_DashBoard(LoginStepDefinition.java:70)\r\n\tat ✽.When Broker navigated to DashBoard(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Broker navigated to DashBoard",
+            "match": {
+              "location": "LoginStepDefinition.broker_navigated_to_DashBoard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Broker has to click on button",
+            "match": {
+              "location": "LoginStepDefinition.broker_has_to_click_on_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Broker has select \"Limited Company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Limited Company",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_select(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Broker navigated to \"Commercial mortgage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Commercial mortgage",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.broker_navigated_to(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Broker should select type \"Mortgage Application\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mortgage Application",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefinition.broker_should_select_type(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Broker navigats to DIP",
+            "match": {
+              "location": "LoginStepDefinition.broker_navigats_to_DIP()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Broker should click \"continue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "continue",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.broker_should_click(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Validate the applicant�s company",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-the-applicant�s-company;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 433900,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_company_details_page(LoginStepDefinition.java:110)\r\n\tat ✽.Given Broker is on company details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "Broker is on company details page",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_company_details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Broker has to provide \"eat\" or  \"\u003ccompanyNumber\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eat",
+                  "offset": 23
+                },
+                {
+                  "val": "\u003ccompanyNumber\u003e",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide_or(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Broker verifed companyName",
+            "match": {
+              "location": "LoginStepDefinition.broker_verifed_companyName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Broker has to provide \"EMILIANO BELLIO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EMILIANO BELLIO",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "\"nehaashokj@maveric-systems.com\" on email feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nehaashokj@maveric-systems.com",
+                  "offset": 1
+                }
+              ],
+              "location": "LoginStepDefinition.on_email_feild(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "\"9035878138\" on mobile feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9035878138",
+                  "offset": 1
+                }
+              ],
+              "location": "LoginStepDefinition.on_mobile_feild(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Broker click on \"confirm and continue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "confirm and continue",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.broker_click_on(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "Validate Product details",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-product-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 288800,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_Product_details_page(LoginStepDefinition.java:150)\r\n\tat ✽.Given Broker is on Product details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:45)\r\n",
+              "status": "failed"
+            },
+            "line": 45,
+            "name": "Broker is on Product details page",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_Product_details_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "Broker has to select \"7000000\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7000000",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_select_value(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Broker has to provide \"ign\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ign",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide_in_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Broker navigated to Property Type",
+            "match": {
+              "location": "LoginStepDefinition.broker_navigated_to_Property_Type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Broker should select \"Warehouses\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warehouses",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.broker_should_select(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Broker has to select \"freehold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "freehold",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_select(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Broker navigated to propertybuilt",
+            "match": {
+              "location": "LoginStepDefinition.broker_navigated_to_propertybuilt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Broker has to provide \"2009\" in year",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2009",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide_in_year(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Broker has to select \"capital raising\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "capital raising",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_select_type(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "Validate Borrowing needs details",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-borrowing-needs-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Broker is on Borrowing needs",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_Borrowing_needs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4484100,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_amount(LoginStepDefinition.java:194)\r\n\tat ✽.Then Broker has to provide amount \"2200000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:61)\r\n",
+              "status": "failed"
+            },
+            "line": 61,
+            "name": "Broker has to provide amount \"2200000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2200000",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide_amount(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "select \"capital \u0026 interest\" from list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "capital \u0026 interest",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginStepDefinition.select_from_list(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "select \"10\" from dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginStepDefinition.select_from_dropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "select \"2\" from month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginStepDefinition.select_from_month(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "select \"To be paid separately at completion\" balance",
+            "match": {
+              "arguments": [
+                {
+                  "val": "To be paid separately at completion",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginStepDefinition.select_balance(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "clicks on \"click\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginStepDefinition.clicks_on_button(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "validate for Affordability",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-for-affordability;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45800,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Broker is on  Affordability page",
+            "match": {
+              "location": "LoginStepDefinition.broker_is_on_Affordability_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302000,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_year(LoginStepDefinition.java:224)\r\n\tat ✽.Then Broker has to provide year \"220000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:74)\r\n",
+              "status": "failed"
+            },
+            "line": 74,
+            "name": "Broker has to provide year \"220000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "220000",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.broker_has_to_provide_year(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "last three year \"342000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "342000",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.last_three_year(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "click on button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 89,
+        "name": "validate Summary page",
+        "description": "",
+        "id": "login-to-introducer-portal;validate-summary-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56400,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Broker has to validate summary page",
+            "match": {
+              "location": "LoginStepDefinition.broker_has_to_validate_summary_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311200,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.click_on_save(LoginStepDefinition.java:242)\r\n\tat ✽.Then click on save(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:84)\r\n",
+              "status": "failed"
+            },
+            "line": 84,
+            "name": "click on save",
+            "match": {
+              "location": "LoginStepDefinition.click_on_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "click on dashboard",
+            "match": {
+              "location": "LoginStepDefinition.click_on_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Introducer Portal",
+    "description": "",
+    "id": "login-to-introducer-portal",
+    "keyword": "Feature",
+    "uri": "C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature"
+  }
+]
