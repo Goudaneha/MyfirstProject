@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179711200,
+              "duration": 14828036500,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 20400,
+              "duration": 53300,
               "status": "passed"
             },
             "line": 6,
@@ -36,9 +36,8 @@
           },
           {
             "result": {
-              "duration": 3825700,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.utility.CommonMethods.clickon(CommonMethods.java:11)\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_should_select_products(LoginStepDefinition.java:47)\r\n\tat ✽.And Broker should select products(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:7)\r\n",
-              "status": "failed"
+              "duration": 2090203200,
+              "status": "passed"
             },
             "line": 7,
             "name": "Broker should select products",
@@ -49,7 +48,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 92716400,
+              "status": "passed"
             },
             "line": 8,
             "name": "login with valid email \"sit1990\"",
@@ -69,7 +69,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 149074100,
+              "status": "passed"
             },
             "line": 9,
             "name": "password \"Allica123$\"",
@@ -89,7 +90,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2191140600,
+              "status": "passed"
             },
             "line": 10,
             "name": "click on Login button",
@@ -110,7 +112,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1999627400,
+              "duration": 1999549200,
               "status": "passed"
             },
             "line": 17,
@@ -122,9 +124,8 @@
           },
           {
             "result": {
-              "duration": 303200,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_navigated_to_DashBoard(LoginStepDefinition.java:70)\r\n\tat ✽.When Broker navigated to DashBoard(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:18)\r\n",
-              "status": "failed"
+              "duration": 41900,
+              "status": "passed"
             },
             "line": 18,
             "name": "Broker navigated to DashBoard",
@@ -135,7 +136,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 879027200,
+              "status": "passed"
             },
             "line": 19,
             "name": "Broker has to click on button",
@@ -146,7 +148,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 100913200,
+              "status": "passed"
             },
             "line": 20,
             "name": "Broker has select \"Limited Company\"",
@@ -166,7 +169,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 101800,
+              "status": "passed"
             },
             "line": 21,
             "name": "Broker navigated to \"Commercial mortgage\"",
@@ -186,7 +190,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 214470200,
+              "status": "passed"
             },
             "line": 22,
             "name": "Broker should select type \"Mortgage Application\"",
@@ -206,7 +211,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3081565700,
+              "status": "passed"
             },
             "line": 23,
             "name": "Broker navigats to DIP",
@@ -217,7 +223,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7238986400,
+              "status": "passed"
             },
             "line": 24,
             "name": "Broker should click \"continue\"",
@@ -247,9 +254,8 @@
         "steps": [
           {
             "result": {
-              "duration": 433900,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_company_details_page(LoginStepDefinition.java:110)\r\n\tat ✽.Given Broker is on company details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:32)\r\n",
-              "status": "failed"
+              "duration": 9042600,
+              "status": "passed"
             },
             "line": 32,
             "name": "Broker is on company details page",
@@ -260,7 +266,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5064664400,
+              "status": "passed"
             },
             "line": 33,
             "name": "Broker has to provide \"eat\" or  \"\u003ccompanyNumber\u003e\"",
@@ -284,7 +291,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 100958900,
+              "status": "passed"
             },
             "line": 34,
             "name": "Broker verifed companyName",
@@ -295,7 +303,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11815131400,
+              "status": "passed"
             },
             "line": 35,
             "name": "Broker has to provide \"EMILIANO BELLIO\"",
@@ -315,7 +324,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 271823400,
+              "status": "passed"
             },
             "line": 36,
             "name": "\"nehaashokj@maveric-systems.com\" on email feild",
@@ -335,7 +345,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 194269200,
+              "status": "passed"
             },
             "line": 37,
             "name": "\"9035878138\" on mobile feild",
@@ -355,7 +366,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 100778300,
+              "status": "passed"
             },
             "line": 38,
             "name": "Broker click on \"confirm and continue\"",
@@ -385,9 +397,8 @@
         "steps": [
           {
             "result": {
-              "duration": 288800,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_Product_details_page(LoginStepDefinition.java:150)\r\n\tat ✽.Given Broker is on Product details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:45)\r\n",
-              "status": "failed"
+              "duration": 9957000,
+              "status": "passed"
             },
             "line": 45,
             "name": "Broker is on Product details page",
@@ -398,7 +409,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 17716547200,
+              "status": "passed"
             },
             "line": 46,
             "name": "Broker has to select \"7000000\" value",
@@ -418,7 +430,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 961911000,
+              "status": "passed"
             },
             "line": 47,
             "name": "Broker has to provide \"ign\" in field",
@@ -438,7 +451,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 30400,
+              "status": "passed"
             },
             "line": 48,
             "name": "Broker navigated to Property Type",
@@ -449,7 +463,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 171431600,
+              "status": "passed"
             },
             "line": 49,
             "name": "Broker should select \"Warehouses\"",
@@ -469,7 +484,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 298565900,
+              "status": "passed"
             },
             "line": 50,
             "name": "Broker has to select \"freehold\"",
@@ -489,7 +505,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 122895800,
+              "status": "passed"
             },
             "line": 51,
             "name": "Broker navigated to propertybuilt",
@@ -500,7 +517,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72136300,
+              "status": "passed"
             },
             "line": 52,
             "name": "Broker has to provide \"2009\" in year",
@@ -520,7 +538,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112566600,
+              "status": "passed"
             },
             "line": 53,
             "name": "Broker has to select \"capital raising\" type",
@@ -550,7 +569,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66400,
+              "duration": 46500,
               "status": "passed"
             },
             "line": 60,
@@ -562,9 +581,8 @@
           },
           {
             "result": {
-              "duration": 4484100,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_amount(LoginStepDefinition.java:194)\r\n\tat ✽.Then Broker has to provide amount \"2200000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:61)\r\n",
-              "status": "failed"
+              "duration": 132181400,
+              "status": "passed"
             },
             "line": 61,
             "name": "Broker has to provide amount \"2200000\"",
@@ -584,7 +602,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 125411300,
+              "status": "passed"
             },
             "line": 62,
             "name": "select \"capital \u0026 interest\" from list",
@@ -604,7 +623,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 103537600,
+              "status": "passed"
             },
             "line": 63,
             "name": "select \"10\" from dropdown",
@@ -624,7 +644,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 86923500,
+              "status": "passed"
             },
             "line": 64,
             "name": "select \"2\" from month",
@@ -644,7 +665,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 160068500,
+              "status": "passed"
             },
             "line": 65,
             "name": "select \"To be paid separately at completion\" balance",
@@ -664,7 +686,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 121671000,
+              "status": "passed"
             },
             "line": 66,
             "name": "clicks on \"click\" button",
@@ -694,7 +717,7 @@
         "steps": [
           {
             "result": {
-              "duration": 45800,
+              "duration": 56400,
               "status": "passed"
             },
             "line": 73,
@@ -706,9 +729,8 @@
           },
           {
             "result": {
-              "duration": 302000,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_year(LoginStepDefinition.java:224)\r\n\tat ✽.Then Broker has to provide year \"220000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:74)\r\n",
-              "status": "failed"
+              "duration": 6664667100,
+              "status": "passed"
             },
             "line": 74,
             "name": "Broker has to provide year \"220000\"",
@@ -728,7 +750,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 128505300,
+              "status": "passed"
             },
             "line": 75,
             "name": "last three year \"342000\"",
@@ -748,7 +771,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 162395000,
+              "status": "passed"
             },
             "line": 76,
             "name": "click on button",
@@ -769,7 +793,7 @@
         "steps": [
           {
             "result": {
-              "duration": 56400,
+              "duration": 53700,
               "status": "passed"
             },
             "line": 83,
@@ -781,9 +805,8 @@
           },
           {
             "result": {
-              "duration": 311200,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.click_on_save(LoginStepDefinition.java:242)\r\n\tat ✽.Then click on save(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:84)\r\n",
-              "status": "failed"
+              "duration": 9028928700,
+              "status": "passed"
             },
             "line": 84,
             "name": "click on save",
@@ -794,7 +817,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1222169400,
+              "status": "passed"
             },
             "line": 85,
             "name": "click on dashboard",
@@ -810,6 +834,6 @@
     "description": "",
     "id": "login-to-introducer-portal",
     "keyword": "Feature",
-    "uri": "C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature"
+    "uri": "C:/Users/nehaashokj/git/repository/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature"
   }
 ]

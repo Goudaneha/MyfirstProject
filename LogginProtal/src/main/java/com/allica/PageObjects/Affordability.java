@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Affordability {
 
-	public By turnover = By.xpath("//input[@id='business_turnover']");
-	public By ebit = By.xpath("//input[@id='business_ebit']");
-	public By button = By.xpath("//button[@form='AFFORD']");
+	public static By turnover = By.xpath("//input[@id='business_turnover']");
+	public static By ebit = By.xpath("//input[@id='business_ebit']");
+	public static By button = By.xpath("//button[@form='AFFORD']");
 }

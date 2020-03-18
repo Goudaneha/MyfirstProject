@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature",
+		features = "C:/Users/nehaashokj/git/repository/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature",
 		glue = {"com.allica.StepDefinition"},
 		format = {"pretty","html:html_ouput/cucumber.html","json:json_output/cucumber.json"},
 		monochrome = true,

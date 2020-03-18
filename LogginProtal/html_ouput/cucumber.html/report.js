@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/nehaashokj/git/repository/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature");
 formatter.feature({
   "line": 1,
   "name": "Login to Introducer Portal",
@@ -117,23 +117,22 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_HomePage()"
 });
 formatter.result({
-  "duration": 179711200,
+  "duration": 14828036500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_navigats_to_HomePage()"
 });
 formatter.result({
-  "duration": 20400,
+  "duration": 53300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_should_select_products()"
 });
 formatter.result({
-  "duration": 3825700,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.utility.CommonMethods.clickon(CommonMethods.java:11)\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_should_select_products(LoginStepDefinition.java:47)\r\n\tat ✽.And Broker should select products(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:7)\r\n",
-  "status": "failed"
+  "duration": 2090203200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -145,7 +144,8 @@ formatter.match({
   "location": "LoginStepDefinition.login_with_valid_email(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92716400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -157,13 +157,15 @@ formatter.match({
   "location": "LoginStepDefinition.password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 149074100,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2191140600,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 16,
@@ -306,22 +308,22 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_dashboard()"
 });
 formatter.result({
-  "duration": 1999627400,
+  "duration": 1999549200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_navigated_to_DashBoard()"
 });
 formatter.result({
-  "duration": 303200,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_navigated_to_DashBoard(LoginStepDefinition.java:70)\r\n\tat ✽.When Broker navigated to DashBoard(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:18)\r\n",
-  "status": "failed"
+  "duration": 41900,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_has_to_click_on_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 879027200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -333,7 +335,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100913200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -345,7 +348,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_navigated_to(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 101800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -357,13 +361,15 @@ formatter.match({
   "location": "LoginStepDefinition.broker_should_select_type(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 214470200,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_navigats_to_DIP()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3081565700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -375,7 +381,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_should_click(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7238986400,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -519,9 +526,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_company_details_page()"
 });
 formatter.result({
-  "duration": 433900,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_company_details_page(LoginStepDefinition.java:110)\r\n\tat ✽.Given Broker is on company details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:32)\r\n",
-  "status": "failed"
+  "duration": 9042600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -537,13 +543,15 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide_or(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5064664400,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_verifed_companyName()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100958900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -555,7 +563,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11815131400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -567,7 +576,8 @@ formatter.match({
   "location": "LoginStepDefinition.on_email_feild(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 271823400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -579,7 +589,8 @@ formatter.match({
   "location": "LoginStepDefinition.on_mobile_feild(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 194269200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -591,7 +602,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_click_on(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100778300,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 44,
@@ -754,9 +766,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_Product_details_page()"
 });
 formatter.result({
-  "duration": 288800,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_is_on_Product_details_page(LoginStepDefinition.java:150)\r\n\tat ✽.Given Broker is on Product details page(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:45)\r\n",
-  "status": "failed"
+  "duration": 9957000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -768,7 +779,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_select_value(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 17716547200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -780,13 +792,15 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide_in_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 961911000,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_navigated_to_Property_Type()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -798,7 +812,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_should_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 171431600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -810,13 +825,15 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 298565900,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.broker_navigated_to_propertybuilt()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 122895800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -828,7 +845,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide_in_year(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 72136300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -840,7 +858,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_select_type(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 112566600,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 59,
@@ -983,7 +1002,7 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_Borrowing_needs()"
 });
 formatter.result({
-  "duration": 66400,
+  "duration": 46500,
   "status": "passed"
 });
 formatter.match({
@@ -996,9 +1015,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide_amount(String)"
 });
 formatter.result({
-  "duration": 4484100,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_amount(LoginStepDefinition.java:194)\r\n\tat ✽.Then Broker has to provide amount \"2200000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:61)\r\n",
-  "status": "failed"
+  "duration": 132181400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1010,7 +1028,8 @@ formatter.match({
   "location": "LoginStepDefinition.select_from_list(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 125411300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1022,7 +1041,8 @@ formatter.match({
   "location": "LoginStepDefinition.select_from_dropdown(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 103537600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1034,7 +1054,8 @@ formatter.match({
   "location": "LoginStepDefinition.select_from_month(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86923500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1046,7 +1067,8 @@ formatter.match({
   "location": "LoginStepDefinition.select_balance(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 160068500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1058,7 +1080,8 @@ formatter.match({
   "location": "LoginStepDefinition.clicks_on_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 121671000,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 72,
@@ -1151,7 +1174,7 @@ formatter.match({
   "location": "LoginStepDefinition.broker_is_on_Affordability_page()"
 });
 formatter.result({
-  "duration": 45800,
+  "duration": 56400,
   "status": "passed"
 });
 formatter.match({
@@ -1164,9 +1187,8 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_provide_year(String)"
 });
 formatter.result({
-  "duration": 302000,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.broker_has_to_provide_year(LoginStepDefinition.java:224)\r\n\tat ✽.Then Broker has to provide year \"220000\"(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:74)\r\n",
-  "status": "failed"
+  "duration": 6664667100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1178,13 +1200,15 @@ formatter.match({
   "location": "LoginStepDefinition.last_three_year(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 128505300,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 162395000,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 82,
@@ -1259,21 +1283,21 @@ formatter.match({
   "location": "LoginStepDefinition.broker_has_to_validate_summary_page()"
 });
 formatter.result({
-  "duration": 56400,
+  "duration": 53700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_save()"
 });
 formatter.result({
-  "duration": 311200,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.allica.StepDefinition.LoginStepDefinition.click_on_save(LoginStepDefinition.java:242)\r\n\tat ✽.Then click on save(C:/Users/nehaashokj/Downloads/Allica/LogginProtal/src/main/java/com/allica/features/IntroducerProtal.feature:84)\r\n",
-  "status": "failed"
+  "duration": 9028928700,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1222169400,
+  "status": "passed"
 });
 });
